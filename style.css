@@ -1,0 +1,29 @@
+html body{
+    background-color: #2a2a2a;
+}
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+div h1 {
+    color: #dc4c36;
+    font-family: 'Rammetto One', cursive;
+    text-align: right;
+    padding-right: 50px;
+}
+.invert{
+    color: #2a2a2a;
+    text-shadow: #dc4c36 5px 0 10px;
+    padding-left: 50px;
+}
+.outline{
+    color: #2a2a2a;
+    -webkit-text-stroke: 1px #dc4c36;
+    padding-left: 50px;
+}
+div .cream{
+    background-color: #fffed4;
+}
+.section-header{
+    font-size: 24px;
+    color:#4fb477;
+}
