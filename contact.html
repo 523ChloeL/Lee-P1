@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Chloe Senior Year Portfolio" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,45 +49,38 @@
         </div>
       </div>
     </div>
+    <div id="contact">
+      <h2>Contact</h2>
+       <div class = "frame">
+<center>
+  <div id = "button_open_envelope">
+  				Email me
+  			</div>
+</center>
+<!-- form field -->
+			<div class = "message">
+				<form method="post" action="contact.php">
+					<input type="text" name="name" id="name" placeholder=" Name* " required>
 
-    <div id = "about" class = "cream">
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-          <h2 class = "section-header">About Me</h2>
-        </div>
-        <div class="col-md-4"></div>
+					<input type="email" name="email" id="email" placeholder=" Email* " required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$">
+
+					<input type="text" name="phone" id="phone" placeholder=" Phone (optional)" autofocus>
+
+					<textarea name="message" id="messarea" placeholder=" Message* " required></textarea>
+
+					<input type="text" name="address" id="address" style="display: none;">
+					<input type="submit" value="Send" id="send">
+				</form>
+			</div>
+      <div>
+        <div class = "bottom"></div>
+  			<div class = "left"></div>
+  			<div class = "right"></div>
+  			<div class = "top"></div>
       </div>
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-3">
-          <div class="square">SQUARE</div>
-        </div>
-        <div class="col-md-5">
-          <p class = "poppins">
-            Hi, I’m Chloe! I am a senior at Marlboro High School and a Level 3 Advisory Board Member for the Web Design Program. I joined the Web Design Pathway Program because I was interested in Computer Science and wanted to learn new languages and how to problem solve. Safe to say that I am leaving with a lot more than just that.
-
-          </p>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
     </div>
 
-    <div id = "school" class = "cream">
-      <h2 class = "section-header">Education/Skills</h2>
-    </div>
-
-    <div id = "interest" class = "cream">
-      <h2 class = "section-header">Interests</h2>
-    </div>
-
-    <div id="gallery">
-      <h2 class = "section-header">Gallery</h2>
-    </div>
-
-    
-
-    <script src="main.js"></script>
+    <script src="contact.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
