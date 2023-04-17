@@ -1,5 +1,7 @@
 html body{
     background-color: #2a2a2a;
+    width: 100%;
+    height: 100%;
 }
 .poppins {
     font-family: 'Poppins', sans-serif;
@@ -29,11 +31,15 @@ div .cream{
     color:#4fb477;
     font-family: 'Rammetto One', cursive;
 }
-p{
+.container-fluid{
     background-color: #fffed4;
     border-radius: 5px;
     
     color:#2a2a2a;
+}
+p{
+    border-color:#4fb477;
+    border-width: 4px;
 }
 
 #navbar {
