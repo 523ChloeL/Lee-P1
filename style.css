@@ -34,12 +34,10 @@ div .cream{
 .container-fluid{
     background-color: #fffed4;
     border-radius: 5px;
-    
+    border-color: #4fb477;
+        border-width: 4px;
+        border-style: dashed;
     color:#2a2a2a;
-}
-p{
-    border-color:#4fb477;
-    border-width: 4px;
 }
 
 #navbar {
