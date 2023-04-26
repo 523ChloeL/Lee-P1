@@ -3,6 +3,14 @@ html body{
     width: 100%;
     height: 100%;
 }
+.square{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+        border-color: #4fb477;
+        border-width: 4px;
+        border-style: dashed;
+}
 .poppins {
     font-family: 'Poppins', sans-serif;
 }
