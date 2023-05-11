@@ -57,6 +57,14 @@ div .cream{
         border-style: dashed;
     color:#2a2a2a;
 }
+.dark {
+    background-color: #2a2a2a;
+        border-radius: 5px;
+        border-color: #4fb477;
+        border-width: 4px;
+        border-style: dashed;
+        color: #fffed4;
+}
 
 #navbar {
     background-color: #2a2a2a;
