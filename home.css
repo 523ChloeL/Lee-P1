@@ -1,7 +1,22 @@
 .scrollspy-example {
     position: relative;
 }
-
+div h1 {
+    color: #dc4c36;
+    font-family: 'Rammetto One', cursive;
+    text-align: right;
+    padding-right: 50px;
+}
+.invert{
+    color: #2a2a2a;
+    text-shadow: #dc4c36 5px 0 10px;
+    padding-left: 50px;
+}
+.outline{
+    color: #2a2a2a;
+    -webkit-text-stroke: 1px #dc4c36;
+    padding-left: 50px;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -205,7 +220,7 @@ body {
     left: 0;
     margin: auto;
     align-content: 100%;
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
     color: #0A2C64;
 }
@@ -225,9 +240,8 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
 #navbar a:hover {
     background-color: #FF91B2;
     transition: background-color 0.3s;
@@ -246,7 +260,7 @@ html {
     height: 100%;
     color: #777;
     text-align: center;
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-variant: small-caps;
     scroll-behavior: smooth;
 }
@@ -256,7 +270,7 @@ button {
     outline: 0;
     background-color: #594343;
     text-align: center;
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Rammetto One', cursive;
     font-variant: small-caps;
 }
 
@@ -302,8 +316,7 @@ a.btn:hover {
 a {
 
     font-weight: normal;
-    'Paytone One',
-    sans-serif;
+    font-family: 'Rammetto One', cursive;
     font-variant: small-caps;
 
 }
@@ -317,8 +330,7 @@ a {
     background-color: #E9C2F1;
     text-align: center;
     padding: 50px 80px;
-    font-family: 'Tenor Sans', sans-serif;
-    font-variant: small-caps;
+    font-family: 'Poppins', sans-serif;
 }
 
 h5 {
@@ -331,8 +343,7 @@ h5 {
 }
 
 h3 {
-    font-family: 'Mochiy Pop P One';
-    font-variant: small-caps;
+    font-family: 'Rammetto One', cursive;
 }
 
 .card-text {
@@ -356,8 +367,7 @@ h3 {
     color: black;
     background-color: rgba(44, 47, 51, 0);
     border-width: medium;
-    font-family: 'Tenor Sans', sans-serif;
-    font-variant: small-caps;
+    font-family: 'Poppins', sans-serif;
 
 }
 

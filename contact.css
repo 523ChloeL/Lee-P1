@@ -2,6 +2,7 @@
     width: 600px;
     height: 350px;
     margin: 250px auto 0;
+    z-index:1000;
     position: relative;
     background: #435d77;
     border-radius: 0 0 40px 40px;
