@@ -168,7 +168,3 @@ div #about {
     transition: background-color 0.3s;
     z-index: 11000000;
 }
-
-a.active {
-    background-color: #FF91B2;
-}

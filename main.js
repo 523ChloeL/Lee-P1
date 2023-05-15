@@ -22,21 +22,25 @@ function changeNavbarColor() {
     var scrollPos = window.pageYOffset;
     var home = document.getElementById("home")
     if (scrollPos > 0.5) {
-        navbar.style.backgroundColor = '#0A2C64'
+        navbar.style.backgroundColor = '#2274A5'
         home.style.color = "#2a2a2a"
-        document.getElementById("about-us").style.color = "#2a2a2a"
-        document.getElementById("organizations").style.color = "#2a2a2a"
-        document.getElementById("tutorials").style.color = "#2a2a2a"
-        document.getElementById("instagram").style.color = "#2a2a2a"
+        document.getElementById("about").style.color = "#2a2a2a"
+        document.getElementById("education").style.color = "#2a2a2a"
+        document.getElementById("interest").style.color = "#2a2a2a"
+        document.getElementById("wdpp").style.color = "#2a2a2a"
+        document.getElementById("dm").style.color = "#2a2a2a"
+        document.getElementById("photo").style.color = "#2a2a2a"
         document.getElementById("contact").style.color = "#2a2a2a"
     } else {
         navbar.style.backgroundColor = '#2a2a2a'
-        document.getElementById("home").style.color = "#0A2C64"
-        document.getElementById("about-us").style.color = "#0A2C64"
-        document.getElementById("organizations").style.color = "#0A2C64"
-        document.getElementById("tutorials").style.color = "#0A2C64"
-        document.getElementById("instagram").style.color = "#0A2C64"
-        document.getElementById("contact").style.color = "#0A2C64"
+        document.getElementById("home").style.color = "#2274A5"
+        document.getElementById("about").style.color = "#2274A5"
+        document.getElementById("education").style.color = "#2274A5"
+        document.getElementById("interest").style.color = "#2274A5"
+        document.getElementById("wdpp").style.color = "#2274A5"
+        document.getElementById("dm").style.color = "#2274A5"
+        document.getElementById("photo").style.color = "#2274A5"
+        document.getElementById("contact").style.color = "#2274A5"
     }
 }
 
